@@ -2,9 +2,14 @@ html{
    background-color: #f6f6f6;
    width: 100%;
    height: 100%;
+   color: black;
+}
+body{
+    overflow: scroll;
 }
 body a{
     text-decoration-line: none;
+    color: black;
 }
 body li{
     list-style: none;
@@ -13,25 +18,65 @@ body>div,aside>div,main>div{
    background-color: white;
    box-shadow: 0 1px 3px rgba(26,26,26,.1);
 }
+/*设置固定导航栏*/
 .top{
+    background-color: white;
     position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 60px;
+}
+/*对导航栏内容进行响应式设计*/
+.top-content{
+   display: flex;
+   align-items: center;
+   margin:0 auto;
+   max-width: 1500px;
+   min-width: 1000px;
+   height: 100%;
+}
+.top-content>a{
+    margin-right: 2%;
+}
+.top-content>input{
+    height: 50%;
+    font-size: 16px;
+    width: 300px;
+    background-color: #f6f6f6;
+}
+#search{
+    position: relative;
+    left: -20px;
+}
+.top-aside{
+    margin-left: 190px;
+}
+.top-aside>a{
+    margin-right: 20px;
+}
+/*设置首页的主体部分*/
+.maincontent{
+    height: 100vh;
+    margin: 80px auto;
+    padding-right:10px; 
+    max-width: 1000px;
+    min-width: 900px;
+    box-shadow: none;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: row;
 }
 aside{
-    position: fixed;
-    right: 15%;
-    top: 10%;
-    width: 20%;
+    margin-left: 10px;
+    width: 300px;
     height: 90%;;
 }
 aside>.buttons{
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    width: 100%;
+    width: 300px;
     height: 25%;
     display: flex;
     flex-wrap: wrap;
@@ -71,9 +116,8 @@ aside>.buttons{
     position: relative; */
 }
 aside>.mycenter{
-    position: relative;
-    top: 27%;
-    height: 48%;
+    margin-top: 10px;
+    height: 300px;
 }
 .mycenter>li{
     height: 12.5%;
@@ -93,22 +137,22 @@ aside>.mycenter{
 aside>.footer{
     background-color: #f6f6f6;
     box-shadow: none;
-    position: relative;
-    top: 29%;
-    height: 20%;
+    margin-top: 10px;
+    height: 200px;
 
+}
+.footer{
+    font-size: 14px;
+}
+.footer>a{
+    line-height: 30px;
 }
 main{
     background: #f6f6f6;
-    position: absolute;
-    z-index: -1;
-    left: 15%;
-    top: 10%;
-    width: 49%;
+    width: 580px;
     height: 100%;
     display: flex;
     flex-direction: column;
-
 }
 main>div{
     margin-top: 2%;
@@ -117,6 +161,20 @@ main>.myaffair{
    margin-top: 0;
    width: 100%;
    height: 10%;
+   display: flex;
+}
+.affairbtn{
+    margin-left: 5%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.affairbtn>a{
+    margin-right:5%;
+    align-items: baseline;
+}
+.draft{
+    margin-left: 150px;
 }
 main>.content{
     width: 100%;
