@@ -22,9 +22,9 @@
                     </g>
                 </svg>
             </a>
-            <a href="">首页</a>
-            <a href="">发现</a>
-            <a href="">话题</a>
+            <a href="" class="this">首页</a>
+            <a href="" class="other">发现</a>
+            <a href="" class="other">话题</a>
             <input type="text">
             <a href="" id="search">
                 <svg fill="grey" viewBox="0 0 16 16" class="Icon Icon--search" style="height:16px;width:16px;" width="16" height="16" aria-hidden="true"
@@ -35,7 +35,7 @@
                     </g>
                 </svg>
             </a>
-            <a href="" style="background-color:#1E8BE8;padding:10px 15px;color:white;margin-left:-1%;border-radius:10%;">提问</a>
+            <a href="" id="question">提问</a>
 
             <div class="top-aside">
                 <a href="">
@@ -121,7 +121,52 @@
                 </div>
 
             </div>
-            <div class="content"></div>
+            <div class="content">
+                <a href="">
+                    <svg viewBox="0 0 14 14" class="Icon Icon--remove" style="height:10px;width:10px;" width="10" height="10" aria-hidden="true"
+                        data-reactid="85">
+                        <title data-reactid="86"></title>
+                        <g data-reactid="87">
+                            <path d="M8.486 7l5.208-5.207c.408-.408.405-1.072-.006-1.483-.413-.413-1.074-.413-1.482-.005L7 5.515 1.793.304C1.385-.103.72-.1.31.31-.103.724-.103 1.385.305 1.793L5.515 7l-5.21 5.207c-.407.408-.404 1.072.007 1.483.413.413 1.074.413 1.482.005L7 8.485l5.207 5.21c.408.407 1.072.404 1.483-.007.413-.413.413-1.074.005-1.482L8.485 7z"></path>
+                        </g>
+                    </svg>
+                </a>
+                <div class="topic">来自话题：Python</div>
+                <div class="user">刘不二，程序员</div>
+                <div class="article">
+                    <h3>有哪些解决完之后让你叫绝的算法问题？</h3>
+                    <a>以前看到的，大学c语言上机课，老师说谁把结果能运行出来就可以走人了。说有一学渣很快编译运行出正确结果，经老师检查完全正确，欢快走人。有人偷偷打开其电…
+                        <a class="spread" href="javascript:void(0)">阅读全文
+                            <svg viewBox="0 0 10 6" class="Icon ContentItem-arrowIcon Icon--arrow" width="10" height="16" aria-hidden="true" style="height: 16px; width: 10px;">
+                                <title></title>
+                                <g>
+                                    <path d="M8.716.217L5.002 4 1.285.218C.99-.072.514-.072.22.218c-.294.29-.294.76 0 1.052l4.25 4.512c.292.29.77.29 1.063 0L9.78 1.27c.293-.29.293-.76 0-1.052-.295-.29-.77-.29-1.063 0z"></path>
+                                </g>
+                            </svg>
+                        </a>
+                    </a>
+                </div>
+                <div class="view">
+                    <button>
+                        <svg viewBox="0 0 20 18" class="Icon VoteButton-upIcon Icon--triangle" width="9" height="16" aria-hidden="true" style="height: 16px; width: 9px;"
+                            fill="#1E8BE8">
+                            <title></title>
+                            <g>
+                                <path d="M0 15.243c0-.326.088-.533.236-.896l7.98-13.204C8.57.57 9.086 0 10 0s1.43.57 1.784 1.143l7.98 13.204c.15.363.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H1.955c-1.08 0-1.955-.517-1.955-1.9z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg viewBox="0 0 20 18" class="Icon VoteButton-downIcon Icon--triangle" style="height:16px;width:9px;" width="9" height="16"
+                            aria-hidden="true" data-reactid="152" fill="#1E8BE8">
+                            <title data-reactid="153"></title>
+                            <g data-reactid="154">
+                                <path d="M0 15.243c0-.326.088-.533.236-.896l7.98-13.204C8.57.57 9.086 0 10 0s1.43.57 1.784 1.143l7.98 13.204c.15.363.236.57.236.896 0 1.386-.875 1.9-1.955 1.9H1.955c-1.08 0-1.955-.517-1.955-1.9z"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
         </main>
         <aside>
             <div class="buttons">
@@ -259,19 +304,19 @@
             </div>
             <div class="footer">
                 <a href="">刘看山</a>
-                <span></span>
+                <span>|</span>
                 <a href="">知乎指南</a>
-                <span></span>
+                <span>|</span>
                 <a href="">知乎协议</a>
                 <span></span>
                 <a href="">应用</a>
-                <span></span>
+                <span>|</span>
                 <a href="">工作</a>
                 <br>
                 <a href="">申请开通知乎机构号</a>
                 <br>
                 <a href="">侵权举报</a>
-                <span></span>
+                <span>|</span>
                 <a href="">网上有害信息举报专区</a>
                 <br>
                 <a>违法和不良信息举报：010-82716601</a>
