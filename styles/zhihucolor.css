@@ -1,0 +1,70 @@
+html{
+    background-color: #f6f6f6;
+}
+body a{
+    color: black;
+}
+body>div,aside>div,main>div{
+    background-color: white;
+}
+.top{
+    background-color: white;
+}
+.other{
+    color: gray;
+}
+.other:hover{
+    color: darkblue;
+}
+.top-content>input{
+    background-color: #f6f6f6;
+}
+#question{
+    background-color:#1E8BE8;
+    color:white;
+}
+#question:hover{
+    background-color:royalblue;
+}
+.maincontent{
+    background-color: #f6f6f6;
+}
+aside a{
+    color: gray;
+}
+.mycenter>li:hover{
+    background-color: #f6f6f6;
+}
+aside>.footer{
+    background-color: #f6f6f6;
+}
+.footer>span{
+    color: gray;
+}
+.footer>[href]:hover{
+    color: darkblue;
+}
+main{
+    background: #f6f6f6;
+}
+.affairbtn>a:hover{
+    color: darkblue;
+}
+.draft>a{
+    color: gray;
+}
+.draft>a:hover{
+    color: darkblue;
+}
+.topic{
+    color: gray;
+}
+.spread{
+    color: darkblue;
+}
+.spread:hover{
+    color: gray;
+}
+.view>button{
+    background-color: lightskyblue;
+}
