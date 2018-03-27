@@ -11,5 +11,17 @@
 <li>version 1:由于采用相对布局和position：absolute和relative，导致无法实现响应式布局</li>
 <li>version 2:修改相对布局为绝对布局，margin改为0 auto，实现响应式布局</li>
 <li>version 3:细节修改，增加hover效果和字体颜色</li>
-
+<h5>3.26<br>CSS文件分流<h5>
+<h5>3.27<br>爬取数据<h5>
+<p>查找到一个简单实现数据爬取的例子
+<br>几次尝试都没有成功，原因总结如下：
+<li>知乎首页需要登录才能显示数据</li>
+<li>爬取数据文件格式有误，未能正确分析数据结构</li>
+<br>解决方法如下：
+<ol>浏览器选中元素进行copy selector</ol>
+<ol>按照话题爬取数据</ol>
+<br>可改进的地方
+<li>XHR</li>
+<li>只能爬取少数数据，寻找应付懒加载的方法</li>
+</p>
 
