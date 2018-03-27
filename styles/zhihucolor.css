@@ -65,6 +65,9 @@ main{
 .spread:hover{
     color: gray;
 }
-.view>button{
+.view > .likes{
     background-color: lightskyblue;
+}
+.view > .function{
+    color: gray;
 }
