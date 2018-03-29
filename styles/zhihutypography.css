@@ -20,6 +20,9 @@ body li{
     font-size: 15px;
     line-height: 25px;
 }
+.spread {
+    text-align: right;
+}
 .view > .function{
     font-size: 15px;
 }
