@@ -22,6 +22,27 @@
 <ol>按照话题爬取数据</ol>
 <br>可改进的地方
 <li>XHR</li>
-<li>只能爬取少数数据，寻找应付懒加载的方法</li>
+<li>只能爬取少数数据，寻找应付瀑布流加载的方法</li>
+</p>
+<h5>3.28<br>简单挪用数据 + node 学习<h5>
+<p>使用js调用数据到页面
+<br>html:复制 div.content 
+<br>js: 
+<li>将储存data的js文件在head处引用</li>
+<li>使用原型创建对象（content），保存属性和方法</li>
+<br>改进方向:
+<ol>module
+<br>封装函数的js文件通过exports暴露出接口，供他人调用
+<br>模块化 .js 有利于保持全局变量的纯净，同时保持 .js 的独立性</ol>
+<ol>封装函数，抽象过程</ol>
+</p>
+<p>node学习
+<a>node</a>
+<li>初步了解express
+<ol>get</ol>
+<ol>request 对象处理请求数据
+<br>response 对象</ol>
+</li>
+<li>events监听器（EventEmitter），事件触发和绑定（类比js addEventListener）</li>
 </p>
 
