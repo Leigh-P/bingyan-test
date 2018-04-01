@@ -1,10 +1,8 @@
 html{
    width: 100%;
-   min-height: 2000px;
    overflow: scroll;
 }
 body{
-    min-height: 2000px;
     display: block;
 
 }
@@ -59,7 +57,6 @@ body > div,aside > div,main > div{
     padding-right:10px; 
     max-width: 1000px;
     min-width: 900px;
-    min-height: 2000px;
     box-shadow: none;
     display: flex;
     flex-direction: row;
@@ -132,7 +129,7 @@ main{
 main > div{
     margin-top: 2%;
 }
-main > .myaffair{
+/* main > .myaffair{
     margin-top: 0;
     width: 650px;
     height: 60px;
@@ -150,8 +147,25 @@ main > .myaffair{
 }
 .draft{
     margin-left: 200px;
+} */
+main .myaffair {
+    width: 620px;
+    height: 60px;
+    margin-top: 0;
+    padding: 1em;
 }
-main > .content{
+.myaffair .affairbtn {
+    float: left;
+    width: 80%;
+}
+.myaffair .affairbtn a{
+    margin-right: 5%;
+}
+.myaffair .draft {
+    float: right
+}
+
+/* main > .content{
     width: 620px;
     min-height: 200px;
     padding: 15px;
@@ -178,4 +192,14 @@ main > .content{
 }
 .view > button{
     margin-left: 20px;
+} */
+
+main .content {
+    width: 620px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+main .content .view > .function{
+    border: none;
 }

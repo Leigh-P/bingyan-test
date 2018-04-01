@@ -29,6 +29,9 @@ body>div,aside>div,main>div{
 .maincontent{
     background-color: #f6f6f6;
 }
+.content{
+    background-color: white;
+}
 aside a{
     color: gray;
 }
@@ -67,6 +70,7 @@ main{
 }
 .view > .likes{
     background-color: lightskyblue;
+    color: gray;
 }
 .view > .function{
     color: gray;
