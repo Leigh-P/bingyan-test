@@ -7,4 +7,11 @@
         position: relative;
         right: 0rem;
     }
+    .top{
+        min-width: 958px;
+        position: relative;
+    }
+    .maincontent{
+        margin-top: 20px;
+    }
 }
